@@ -1,0 +1,7 @@
+name: formatting-automation
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12     # 3.12.1
+  - pre-commit=3.6  # 3.6.2
