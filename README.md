@@ -106,7 +106,7 @@ Fixing README.md
 black................................................(no files to check)Skipped
 ```
 
-Once installed, the git hooks will run every time a user attempts to commit files for this repository As directed by the `.pre-commit-config.yaml` file, the pre-commit routines checks certain files for formatting and modify files as needed to pass the checks. Files that fail the checks will be modified. If any check fails, no files will be committed, but all file modifications from the pre-commit routines will be preserved locally. A user must commit files again will all checks passing in order to push the changes to a remote branch.
+Once installed, the git hooks will run every time a user attempts to commit files for this repository. As directed by the `.pre-commit-config.yaml` file, the pre-commit routines checks certain files for formatting and modify files as needed to pass the checks. Files that fail the checks will be modified. If any check fails, no files will be committed, but all file modifications from the pre-commit routines will be preserved locally. A user must commit files again will all checks passing in order to push the changes to a remote branch.
 
 ## Pre-Commit Resources
 
