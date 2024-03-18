@@ -108,29 +108,34 @@ Additional resources for pre-commit can be found here:
 * https://github.com/pre-commit/pre-commit-hooks
 * https://github.com/pre-commit/demo-repo
 
-Some useful pre-commit command line references are listed  below.
+Some useful pre-commit command line references are listed below.
 
 Install hooks:
-```commandline
-pre-commit install
+
+```console
+> pre-commit install
 ```
 
 Run on all files:
-```commandline
-pre-commit run --all-files
+
+```console
+> pre-commit run --all-files
 ```
 
 Update hook revisions:
-```commandline
-pre-commit autoupdate
+
+```console
+> pre-commit autoupdate
 ```
 
 Clean cached pre-commit files:
-```commandline
-pre-commit clean
+
+```console
+> pre-commit clean
 ```
 
 Clean unused cached repos:
-```commandline
-pre-commit gc
+
+```console
+> pre-commit gc
 ```
