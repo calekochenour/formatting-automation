@@ -30,8 +30,8 @@ repos:
     # Ensure files end in a newline
     -   id: end-of-file-fixer
     # Protect specific branches from direct checkins
-    # -   id: no-commit-to-branch
-    #     args: [--branch=main]
+    -   id: no-commit-to-branch
+        args: [--branch=main]
     # Trim trailing whitespace
     -   id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
