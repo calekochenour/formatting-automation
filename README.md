@@ -82,28 +82,18 @@ pre-commit installed at .git\hooks\pre-commit
 
 [https://github.com/pre-commit/pre-commit-hooks] already up to date!
 [https://github.com/psf/black] already up to date!
+[https://github.com/pycqa/isort] already up to date!
+[https://github.com/PyCQA/flake8] already up to date!
+[https://github.com/pre-commit/mirrors-mypy] already up to date!
 
-[INFO] Installing environment for https://github.com/psf/black.
-[INFO] Once installed this environment will be reused.
-[INFO] This may take a few minutes...
 check for added large files..............................................Passed
-check yaml...........................................(no files to check)Skipped
-fix end of files.........................................................Failed
-- hook id: end-of-file-fixer
-- exit code: 1
-- files were modified by this hook
-
-Fixing README.md
-
-don't commit to branch...................................................Passed
-trim trailing whitespace.................................................Failed
-- hook id: trailing-whitespace
-- exit code: 1
-- files were modified by this hook
-
-Fixing README.md
-
+check yaml...............................................................Passed
+fix end of files.........................................................Passed
+trim trailing whitespace.................................................Passed
 black................................................(no files to check)Skipped
+isort................................................(no files to check)Skipped
+flake8...............................................(no files to check)Skipped
+mypy.................................................(no files to check)Skipped
 ```
 
 Once installed, the git hooks will run every time a user attempts to commit files for this repository. As directed by the `.pre-commit-config.yaml` file, the pre-commit routines checks certain files for formatting and modify files as needed to pass the checks. Files that fail the checks will be modified. If any check fails, no files will be committed, but all file modifications from the pre-commit routines will be preserved locally. A user must commit files again will all checks passing in order to push the changes to a remote branch.
