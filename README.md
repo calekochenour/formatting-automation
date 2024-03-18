@@ -89,6 +89,7 @@ pre-commit installed at .git\hooks\pre-commit
 check for added large files..............................................Passed
 check yaml...............................................................Passed
 fix end of files.........................................................Passed
+don't commit to branch...................................................Passed
 trim trailing whitespace.................................................Passed
 black................................................(no files to check)Skipped
 isort................................................(no files to check)Skipped
@@ -113,29 +114,29 @@ Some useful pre-commit command line references are listed below.
 Install hooks:
 
 ```console
-> pre-commit install
+(formatting-automation) > pre-commit install
 ```
 
 Run on all files:
 
 ```console
-> pre-commit run --all-files
+(formatting-automation) > pre-commit run --all-files
 ```
 
 Update hook revisions:
 
 ```console
-> pre-commit autoupdate
+ (formatting-automation) > pre-commit autoupdate
 ```
 
 Clean cached pre-commit files:
 
 ```console
-> pre-commit clean
+(formatting-automation) > pre-commit clean
 ```
 
 Clean unused cached repos:
 
 ```console
-> pre-commit gc
+(formatting-automation) > pre-commit gc
 ```
